@@ -3,3 +3,8 @@ controllers:
         path: ../src/Controller/
         namespace: Orion\Controller
     type: attribute
+
+api:
+    path: /api
+    controller: Orion\Controller\ApiController::getRoot
+    methods: ['GET']
