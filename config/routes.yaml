@@ -8,3 +8,8 @@ api:
     path: /api
     controller: Orion\Controller\ApiController::getRoot
     methods: ['GET']
+
+admin:
+    path: /admin
+    controller: Orion\Controller\AdminController::getAdmin
+    methods: ['GET']
