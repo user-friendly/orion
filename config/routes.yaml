@@ -4,10 +4,15 @@ controllers:
         namespace: Orion\Controller
     type: attribute
 
-api:
-    path: /api
-    controller: Orion\Controller\ApiController::getRoot
-    methods: ['GET']
+#api:
+#    path: /api
+#    controller: Orion\Controller\ApiController::getRoot
+#    methods: ['GET']
+
+#api_users:
+#    path: /api/users
+#    controller: Orion\Controller\ApiController::getUsers
+#    methods: ['GET']
 
 admin:
     path: /admin
